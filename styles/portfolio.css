@@ -59,20 +59,31 @@ p {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.container h1 {
   font-size: 64px;
   line-height: 1.5;
 }
 
-.content-container h2 {
+.container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.content-container img {
+.container img {
   width: 450px;
   height: 450px;
   border-radius: 50%;
   margin: 50px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .content {
