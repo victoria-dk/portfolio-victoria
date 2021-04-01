@@ -59,6 +59,13 @@ p {
   padding: 160px 20px;
 }
 
+.content-container img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  margin: 50px;
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -67,12 +74,6 @@ p {
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
-}
-.content img {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  margin: 50px;
 }
 
 .content h3 {
@@ -112,6 +113,33 @@ p {
   padding: 120px 60px;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -131,5 +159,9 @@ p {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  .logo {
+    display: none;
   }
 }
