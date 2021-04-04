@@ -209,7 +209,7 @@ footer .social-links a:hover {
     line-height: 56px;
   }
   h2 {
-    font-size: 44px;
+    font-size: 30px;
   }
 
   h4 {
@@ -232,5 +232,11 @@ footer .social-links a:hover {
 
   .logo {
     display: none;
+  }
+
+  .content-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 }
