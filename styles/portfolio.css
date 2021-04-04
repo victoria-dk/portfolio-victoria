@@ -65,9 +65,9 @@ p {
 }
 
 .content-container img {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  border-radius: 15%;
   margin: 50px;
 }
 
