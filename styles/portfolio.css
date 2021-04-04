@@ -118,6 +118,13 @@ p {
   padding: 120px 60px;
 }
 
+.contact-me img {
+  width: 350px;
+  height: 250px;
+  border-radius: 5%;
+  margin: 20px;
+}
+
 nav {
   padding: 20px 0;
 }
@@ -149,7 +156,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--btn-secondary-color);
 }
 
 footer {
