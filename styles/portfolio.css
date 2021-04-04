@@ -1,6 +1,9 @@
 :root {
   --branding-color: #224e6c;
   --secondary-color: #cddfeb;
+  --night-color: #1a3749;
+  --btn-day-color: #ffad42;
+  --btn-secondary-color: #cc811e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -13,7 +16,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: black;
+  color: var(--night-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -40,14 +43,14 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 80px 20px;
+  padding: 140px 20px;
 }
 
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--night-color);
 }
 
 .hero h2 {
@@ -58,7 +61,7 @@ p {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 40px 20px;
 }
 
 .content-container img {
@@ -94,7 +97,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--btn-day-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -103,8 +106,8 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: var(--btn-secondary-color);
+  border: 1px solid var(--btn-secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -120,8 +123,14 @@ nav {
 }
 
 nav ul {
-  padding: 0;
+  padding-top: 10px;
   margin: 0;
+}
+
+nav h3 {
+  color: var(--night-color);
+  border: 1px solid var(--branding-color);
+  padding: 10px;
 }
 
 nav li {
@@ -129,11 +138,12 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
+  text-transform: uppercase;
 }
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--night-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -158,7 +168,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--night-color);
   font-size: 24px;
 }
 
