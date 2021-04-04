@@ -40,6 +40,11 @@ p {
   line-height: 30px;
 }
 
+h3 a {
+  text-decoration: none;
+  color: var(--night-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
