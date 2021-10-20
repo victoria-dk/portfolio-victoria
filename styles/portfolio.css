@@ -65,15 +65,39 @@ h3 a {
   font-size: 24px;
 }
 
+.hero-work {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-work h1 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 36px;
+}
+
 .content-container {
   padding: 40px 20px;
 }
 
-.content-container img {
-  width: 500px;
-  height: 500px;
+.image1 img {
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  width: 300px;
+  height: auto;
   border-radius: 15%;
-  margin: 50px;
+}
+
+.image3 img {
+  display: block;
+  margin: auto;
+  margin-top: auto;
+  width: 500px;
+  height: auto;
+  border-radius: 15%;
 }
 
 .content h1 {
